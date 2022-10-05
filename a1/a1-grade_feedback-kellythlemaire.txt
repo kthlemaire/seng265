@@ -1,0 +1,59 @@
+SENG 265 -- SPRING 2022
+ASSIGNMENT #1 EVALUATION
+========================
+
+Student name:   Kelly Lemaire
+Student number: V00953462
+Student login:  kellythlemaire
+
+-----
+(1) process_cal.c submitted and named appropriately; compiles
+without errors or warnings.
+
+- Yes, the submitted file is correct, but the code
+  compiles with warnings:
+
+process_cal.c:339:35: warning: ‘%s’ directive writing up to 199 bytes into a region of size between 164 and 193 [-Wformat-overflow=]
+  339 |         sprintf(date, "%s %d, %d (%s)", months[event.month - 1], event.day, event.year, event.dweek);
+      |                                   ^~                                                    ~~~~~~~~~~~
+process_cal.c:339:9: note: ‘sprintf’ output between 9 and 237 bytes into a destination of size 200
+  339 |         sprintf(date, "%s %d, %d (%s)", months[event.month - 1], event.day, event.year, event.dweek);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+process_cal.c:330:35: warning: ‘%s’ directive writing up to 199 bytes into a region of size between 164 and 193 [-Wformat-overflow=]
+  330 |         sprintf(date, "%s %d, %d (%s)", months[event.month - 1], event.day, event.year, event.dweek);
+      |                                   ^~                                                    ~~~~~~~~~~~
+process_cal.c:330:9: note: ‘sprintf’ output between 9 and 237 bytes into a destination of size 200
+  330 |         sprintf(date, "%s %d, %d (%s)", months[event.month - 1], event.day, event.year, event.dweek);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+-----
+(2) Tests passed (and further comments)
+
+- All tests passed. Great work.
+
+-----
+(3) Code formatting and structure:
+
+Positive aspects:
+
+- Good formatting and structure of the code that facilitates reading
+  and understanding.
+
+- Good naming conventions for functions and variables.
+
+- Great attempt at documenting the code using comments to describe
+  important aspects of the solution.
+
+- Appropriate use of code segmentation (i.e. function creation and
+  use) that facilitates the usability and eventual maintainability of
+  your solution.
+
+
+Improvement opportunities:
+
+N/A
+
+-----
+
+GRADE: A+
+MARKS: 100

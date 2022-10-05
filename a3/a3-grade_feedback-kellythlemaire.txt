@@ -1,0 +1,42 @@
+SENG 265 -- SPRING 2022
+ASSIGNMENT #3 EVALUATION
+========================
+
+Student name:   Kelly Lemaire
+Student number: V00953462
+Student login:  kellythlemaire
+
+-----
+(1) A#3 files submitted and named appropriately; compiles and runs
+without errors or warnings.
+
+- Yes, the submitted files are correct, and the code
+  compiles and runs successfully without errors or warnings.
+
+-----
+(2) Tests passed (and further comments)
+
+- All tests passed. Great work.
+
+-----
+(3) Code formatting and structure:
+
+Positive aspects:
+
+- Good formatting and structure of the code that facilitates reading
+  and understanding.
+
+- Good naming conventions for functions and variables.
+
+Improvement opportunities:
+
+- Avoid leaving 'TODO' comments as this is a very standard practice to
+  indicate that your code is not complete.
+
+- Avoid leaving commented code in your program as this reduces the
+  readability and understandability of your solution.
+
+-----
+
+GRADE: A+
+MARKS: 98
